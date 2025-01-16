@@ -20,7 +20,7 @@ read -p "> " id
 # Storage and port settings
 storage_gb=50
 start_port=1235
-container_count=5
+container_count=15
 
 # Get the list of public IPs
 public_ips=$(curl -s ifconfig.me)
